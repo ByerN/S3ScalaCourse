@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class JavaStarter {
 
@@ -21,8 +22,7 @@ public class JavaStarter {
       ints.add(i);
     }
     int sum = ints.stream().mapToInt((a) -> a).sum();
-
-
+    System.out.println(Integer.valueOf(1) == Integer.valueOf(1));
   }
 
 }
